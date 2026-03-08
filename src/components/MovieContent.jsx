@@ -1,5 +1,6 @@
 import GenreSection from './GenreSection';
 import HeroSection from './HeroSection';
+import MovieDetails from './ModalDetails';
 import MovieSlider from './MovieSlider';
 
 const MovieContent = () => {
@@ -10,6 +11,8 @@ const MovieContent = () => {
         <MovieSlider />
         <GenreSection />
       </div>
+      {/* conditional rendering   */}
+      {/* <MovieDetails /> */}
     </>
   );
 };
